@@ -1,6 +1,6 @@
 from google import genai
 
-client = genai.Client(api_key="AIzaSyAfNXLXPIYLCA2POzUBVz-R7oE62EottL4")
+client = genai.Client(api_key="<<Add your api key>>")
 
 response = client.models.generate_content(
     model="gemini-2.0-flash",
