@@ -61,11 +61,13 @@ Use a `.env` file in the project root to configure this automatically.
 
 
 code .
+
 ollama pull llama2
+
 ollama pull gemma2:2b
+
 ollama list
-<<<<<<< HEAD
+
 doskey /history
-=======
 doskey /history
 >>>>>>> a37b7c5c34fe39aa216830b208bc22c755a28b71
