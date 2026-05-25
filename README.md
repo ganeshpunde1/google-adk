@@ -24,7 +24,7 @@ pip install -r requirements.txt
 Start the ADK web interface:
 
 ```bash
-cls
+adk web
 ```
 
 ## Project Structure
