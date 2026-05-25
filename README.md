@@ -24,7 +24,11 @@ pip install -r requirements.txt
 Start the ADK web interface:
 
 ```bash
+<<<<<<< HEAD
 cls
+=======
+adk web
+>>>>>>> a37b7c5c34fe39aa216830b208bc22c755a28b71
 ```
 
 ## Project Structure
@@ -60,4 +64,8 @@ code .
 ollama pull llama2
 ollama pull gemma2:2b
 ollama list
+<<<<<<< HEAD
 doskey /history
+=======
+doskey /history
+>>>>>>> a37b7c5c34fe39aa216830b208bc22c755a28b71
