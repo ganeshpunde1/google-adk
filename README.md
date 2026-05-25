@@ -4,6 +4,8 @@ A multi-agent application demonstrating coordinated AI agents for handling greet
 
 ![Multi Agent Architecture](multi_agent_architecture.png)
 
+---
+
 ## Setup
 
 Create and activate the Conda environment with Python 3.11:
@@ -19,55 +21,87 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
+---
+
 ## Running the Application
 
 Start the ADK web interface:
 
 ```bash
-<<<<<<< HEAD
-cls
-=======
 adk web
->>>>>>> a37b7c5c34fe39aa216830b208bc22c755a28b71
 ```
+
+---
 
 ## Project Structure
 
-```
+```text
 ├── muli_agent/
 │   ├── __init__.py       # Package initialization
 │   ├── agent.py          # Multi-agent implementation
 │   └── test.py           # Model testing script
 ├── requirements.txt      # Python dependencies
-└── README.md             # This file
+├── multi_agent_architecture.png
+└── README.md             # Documentation
 ```
+
+---
 
 ## Features
 
-- **Greeting Agent**: Handles user greetings with personalization
-- **Farewell Agent**: Provides polite farewell messages
-- **Root Agent**: Coordinates specialized agents and handles weather queries
-- **Weather Tool**: Returns weather information for specified cities
+- **Greeting Agent**  
+  Handles user greetings with personalization.
+
+- **Farewell Agent**  
+  Provides polite farewell messages.
+
+- **Root Agent**  
+  Coordinates specialized agents and handles weather queries.
+
+- **Weather Tool**  
+  Returns weather information for specified cities.
+
+---
 
 ## Environment Variables
 
-Make sure to set the following environment variable:
+Set the following environment variable:
 
 ```bash
 GOOGLE_API_KEY=your_api_key_here
 ```
 
-Use a `.env` file in the project root to configure this automatically.
+You can also create a `.env` file in the project root:
 
+```env
+GOOGLE_API_KEY=your_api_key_here
+```
 
+---
+
+## Useful Commands
+
+Open project in VS Code:
+
+```bash
 code .
+```
 
+Pull Ollama models:
+
+```bash
 ollama pull llama2
-
 ollama pull gemma2:2b
+```
 
+List available Ollama models:
+
+```bash
 ollama list
+```
 
+Show command history:
+
+```bash
 doskey /history
-doskey /history
->>>>>>> a37b7c5c34fe39aa216830b208bc22c755a28b71
+```
